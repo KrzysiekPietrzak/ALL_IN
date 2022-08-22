@@ -1,0 +1,57 @@
+.s-w-b{
+  height: 80vh;
+  background-image:url("../BW.jpg");
+  object-fit: contain;
+}
+.p-s-w-b{
+  font-size: 6rem;
+  text-shadow: 4px 4px gold;
+  text-align: center;
+}
+.wraper-p{
+  position: relative;
+  animation: swb 3s infinite alternate ease;
+/*  animation: swb2 7s infinite reverse;
+*/
+}
+@keyframes swb {
+  from {top :0px;}
+  to {top:200px;}
+
+}
+@keyframes swb2 {
+  0% {
+    background-color: red;
+  }
+  10% {
+    background-color: orange;
+  }
+  20% {
+    background-color: blue;
+  }
+  30% {
+    background-color: white;
+  }
+  40% {
+    background-color: brown;
+  }
+  50% {
+    background-color: magenta;
+  }
+  60% {
+    background-color: silver;
+  }
+  70% {
+    background-color: purple;
+  }
+  80% {
+    background-color: green;
+  }
+  90% {
+    background-color: gold;
+  }
+  100% {
+    background-color: cyan;
+  }
+
+}

@@ -1,0 +1,398 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  /*overflow-x: hidden;
+*/
+}
+
+*{
+/*  border: solid 1px red !important;
+*/
+}
+
+body{
+  background-color: #ddd;
+  font-family: 'Lato', sans-serif;
+
+}
+li a{
+  font-size: 1.7rem;
+  /*padding: 10px;*/
+  text-decoration: none;
+  font-family: monospace;
+  font-variant: small-caps;
+  color: #110;
+  margin-right: 5px;
+
+}
+
+p{
+  word-wrap: break-word;
+}
+.logo{
+  height: 9vh;
+  position: relative;
+  left: 3vh;
+}
+img{
+  max-height: 45vh;
+  overflow: hidden;
+  display: block;
+}
+
+.nav-text{
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-between;
+}
+.nav-top{
+align-self: center;
+}
+.nav-ul{
+  align-items: flex-start;
+  justify-content: space-between;
+  vertical-align: bottom;
+}
+
+li a:hover{
+/*  padding: 9px;*/
+  border:solid 1px black;
+  border-bottom: solid 2px gold;
+  transition: .5s;
+
+}
+
+
+.first-impr{
+
+  height: 45vw;
+background-image: url("../img (3).jpg");
+background-position: 60% 40% ;
+object-fit:contain;
+overflow: hidden;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+}
+li{
+  margin-left: 10px;
+  font-size: 1.5em;
+}
+.main-text{
+  font-size: 6.52vw;;
+  color: gold;
+  font-family: monospace;
+  margin: 0vw 15vw;
+  padding-top: 15vw;
+overflow: hidden;
+text-shadow: -1px -1px black;
+}
+
+.topic1{
+  width: 80vw;
+
+  padding-top: 5px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.img-topic1{
+  width: 50vw;
+  height: auto;
+object-fit: cover;
+}
+
+
+.events{
+  display: grid;
+  grid-template-columns: auto auto auto;
+column-gap: 0px;
+justify-content: center;
+grid-row-gap: none;
+}
+.event{
+  position: relative;
+  width:25vw;
+  height: auto;
+  overflow: hidden;
+  display: block;
+}
+.p-event-hide{
+  display: none;
+
+}
+.event:hover > .p-event-hide{
+  display:block;
+  background-color: rgba(150,120,130,.5);
+  position: absolute;
+width: 100%;
+  text-align: center;
+  top: 40px;
+  text-shadow: 1px 0px #D4AF37;
+  font-family: Ubuntu;
+}
+
+.img-wrap:hover{
+  transform: scale(1.61);
+  background-position: center center;
+  filter: brightness(50%);
+  transition: 1.2s;
+}
+
+.img-wrap{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  overflow: hidden;
+vertical-align: bottom;
+
+
+}
+.img-event{
+  width: 100%;
+  /*height: auto;
+  */object-fit: contain;
+
+}
+
+.title-name{
+  position: absolute;
+  top: 8px;
+  width: 100%;
+  font-size: 1.5em;
+  color: gold;
+  background-color: rgba(20,10,0,.5); /* Tint color */
+background-blend-mode: multiply;
+  text-align: center;
+}
+.wydarzenia{
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+margin: auto;
+}
+.wyd-p-text{
+margin: auto;
+  margin-top: 5vh;
+  margin-bottom:5vh;
+  font-family: Cookie;
+  font-style: italic;
+  font-size: 3.6rem;
+  color: #D4AF37;
+  text-shadow: 1px 1px black;
+
+  width: 80%;
+text-align: center;
+}
+.wyd-main{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.wydar{
+max-width: 23.33vw;
+  justify-content: flex-start;
+  background-color: #EAE6BF;
+  display:flex;
+  flex-direction: column;
+justify-content: flex-start;
+margin: 3px;
+}
+.wydar-img{
+  padding-top: 0px;
+max-width: 100%;
+align-self: center;
+object-fit: fill;
+}
+
+
+.wyd-up-text{
+/*  text-shadow: 1px 1px 15px #333;
+*/
+margin-top: 2.1vh;
+margin-left: 5px;
+margin-right: 5px;
+  font-size: 0.9rem;
+  color: #D2AF37;
+  font-family: Lora;
+  font-weight: 300;
+}
+.wyd-down-text{
+  margin-left: 30px;
+  margin-right: 30px;
+font-family: Ubuntu;
+text-align: center;
+font-size: 3vw;
+font-weight: 400;
+word-wrap: break-word;
+}
+.wyd-main-text{
+margin-left: 5px;
+margin-right: 5px;
+font-family: Lora;
+margin-bottom: 10px;
+}
+.wyd-button{
+  margin-top: 0px;
+  background-color: #D3AE36;
+  border-width: 0;
+  width: 30%;
+  align-self: center;
+  margin-bottom: 10px;
+  padding: 3px;
+  font-family: Luna;
+  text-transform: uppercase;
+
+}
+.wyd-button:hover{
+  padding:8px;
+  margin-top: -3px;
+  margin-bottom: 3px;
+  background-color: yellow;
+}
+.wyd-page{
+  margin-top: 20px;
+display: flex;
+justify-content: center;
+}
+.wyd-more-button{
+  background-color: #D4AF37;
+  margin:auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-width: 0px;
+  text-transform: uppercase;
+  font-family: Luna;
+
+}
+.wyd-more-button:hover{
+  padding:20px;
+  margin-top: -7px;
+  margin-bottom: 7px;
+  background-color: yellow;
+}
+.right-topic1{
+  position: relative;
+}
+
+.poverimg{
+font-size: 5vw;
+ position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.p-events{
+  margin: auto;
+    margin-top: 5vh;
+    margin-bottom:5vh;
+    font-family: Cookie;
+    font-style: italic;
+    font-size: 3.6rem;
+    color: #D4AF37;
+    text-shadow: 1px 1px black;
+
+    width: 80%;
+  text-align: center;
+
+}
+
+.p-topic1{
+margin: 10% 20%;
+  text-align: justify;
+
+
+}
+.lokale-p{
+  margin: auto;
+    margin-top: 5vh;
+    margin-bottom:5vh;
+    font-family: Cookie;
+    font-style: italic;
+    font-size: 3.6rem;
+    color: #D4AF37;
+    text-shadow: 1px 1px black;
+    width: 80%;
+  text-align: center;
+}
+.lokale-imgs{
+  display: grid;
+  grid-template-columns: 49% 49%;
+column-gap: 5px;
+row-gap: 5px;
+justify-content: center;
+
+}
+.oktagon-img{
+  object-fit: cover;
+  background-position: 10% 10%;
+}
+
+.lokal{
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+  object-fit: cover;
+}
+
+.lokale-div{
+  position:relative;
+}
+.lokale-div-p{
+  position:absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+text-shadow: 1px 1px yellow;
+  font-family: "Bungee Inline";
+  font-size: 3vw;
+}
+.s-poi-1 {
+  color: #D4AF37;
+  text-shadow: -1px -1px black;
+
+}
+.s-poi-2 {
+  color: #777;
+  text-shadow: 1px 1px white;
+
+}
+.fa{
+  color: #D4AF37;
+  size:100px;
+  padding-left: 5px;
+}
+.fa:hover{
+  color: white;
+}
+.owner-info{
+  margin-bottom: 5vh;
+  font-size: 2.5vh;
+  width: 80%;
+}
+footer{
+  margin-top: 5vh;
+padding-top: 30vh;
+
+color: white;
+  background-image: linear-gradient(45deg, black 80%, gold);
+}
+footer p{
+  width: 35vw;
+  margin: auto;
+text-align: center;
+vertical-align: baseline;
+}
+.corporate{
+  padding-bottom: 6vh
+}
+.made-by{
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+}
