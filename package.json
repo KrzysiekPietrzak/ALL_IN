@@ -1,0 +1,19 @@
+{
+  "name": "all_in",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrzysiekPietrzak/ALL_IN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KrzysiekPietrzak/ALL_IN/issues"
+  },
+  "homepage": "https://github.com/KrzysiekPietrzak/ALL_IN#readme"
+}

@@ -8,6 +8,7 @@
   text-shadow: 4px 4px gold;
   text-align: center;
 }
+
 .wraper-p{
   position: relative;
   animation: swb 3s infinite alternate ease;
@@ -54,4 +55,22 @@
     background-color: cyan;
   }
 
+}
+/*CO*/
+.menu-item{
+  display: flex;
+  padding: 7px;
+}
+
+.photo{
+  width: 15vw;
+  height: auto;
+  max-height: 15vh;
+object-fit:cover;
+}
+.photo:hover{
+  object-fit:contain;
+}
+.offer-title{
+  color: rgb(107, 95, 28);
 }
