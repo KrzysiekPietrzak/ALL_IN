@@ -8,52 +8,52 @@ let Events =[{
     id: 1,
     title_name:"2010's",
     day: "poniedziałek",
-    url:"../img(1).jpg",
+    url:"/web/img(1).jpg",
 },{
     id: 2,
     title_name:"2000's",
     day:"wtorek",
-    url:"../img(2).jpg",
+    url:"/web/img(2).jpg",
 },{
     id: 3,
     title_name:"90's",
     day:"wtorek",
-    url:"../img(3).jpg",
+    url:"/web/img(3).jpg",
 },{
     id: 4,
     title_name:"Rap",
     day:"środa",
-    url:"../img(4).jpg",
+    url:"/web/img(4).jpg",
 },{
     id: 5,
     title_name:"Mongolski śpiew gardłowy",
     day:"środa",
-    url:"../img(5).jpg",
+    url:"/web/img(5).jpg",
 },{
     id: 6,
     title_name:"Muzyka klasyczna kompozytorów autriackich",
     day:"czwartek",
-    url:"../img(6).jpg",
+    url:"/web/img(6).jpg",
 },{
     id: 7,
     title_name:"Rock Alternatywny",
     day:"piątek",
-    url:"../img(7).jpg",
+    url:"/web/img(7).jpg",
 },{
     id: 8,
     title_name:"Folk",
     day:"sobota",
-    url:"../img(8).jpg",
+    url:"/web/img(8).jpg",
 },{
     id: 9,
     title_name:"Reggae",
     day:"sobota",
-    url:"../img(9).jpg",
+    url:"/web/img(9).jpg",
 },{
     id: 10,
     title_name:"Power Metal",
     day:"niedziela",
-    url:"../img(10).jpg",
+    url:"/web/img(10).jpg",
 }]
 
 window.addEventListener("DOMContentLoaded", function () {
