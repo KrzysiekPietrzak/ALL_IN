@@ -6,8 +6,13 @@
 */
 }
 
+.hidden{
+visibility: hidden;}
+
+
 *{
-/*  border: solid 1px red !important;
+  /*
+  border: solid 1px red !important;
 */
 }
 
@@ -26,6 +31,15 @@ li a{
   margin-right: 5px;
 
 }
+
+.under-title {
+  font-family: "Bajaderka";
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 100;
+  color: black;
+}
+
 /*modals*/
 #modal1{
   position: fixed;
@@ -554,6 +568,7 @@ vertical-align: baseline;
   text-align: center;
   font-size: 2rem;
   font-family: Kavoon;
+margin-bottom: 3vh;;
 }
 
 /*kto*/
@@ -696,4 +711,98 @@ h4{
 .method::before{
   content:"⊛	";
 color:#D2AF37;
+}
+.title {
+  margin-top: 15vh;
+  font-family: "Lato";
+  font-size: 4.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+
+
+
+.HappyCustomers {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  margin-bottom: 4vh;
+}
+
+.Button {
+  align-self: center;
+  justify-self: center;
+  padding: 20px;
+}
+.button-client{
+padding: 20px;
+width: 10vw;;
+}
+#prevClient, #nextClient{
+  width: 50px;
+  max-width: 5vw;
+  height: 75px;
+  max-height: 7vh;
+  border: 3px double #D2AF37;
+}
+
+.customer-wrap {
+  align-items: center;
+  margin-top: 2%;
+  margin-left: calc(50% - 125px);
+}
+
+#customer-img {
+  width: 220px;
+  height: 220px;
+  object-fit:cover;
+  border-radius: 50%;
+}
+
+.justtext {
+  font-family: "Lato";
+  font-size: 1.6rem;
+}
+
+.customer {
+  border: 1px solid #D2AF37;
+  text-align: center;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+  font-weight: bolder;
+  padding-bottom: 5vh;;
+}
+.rating-kto{
+  color: #D2AF37;
+  font-size: 1.9rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#name-bold{
+  display: inline-block;
+  width: 100%;
+  font-size: 9rem;
+  text-align: center;
+  font-family: "Alex Brush";
+color: #DFAF37;
+}
+#name-bold2{
+  color: #110;
+}
+
+.ankieta-cont{
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.ankieta-option{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+justify-content: space-around;
+}
+
+#button-ankieta{
+  margin-top: 3vh;
+margin-left: 50%;
 }

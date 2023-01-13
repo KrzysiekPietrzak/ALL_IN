@@ -39,6 +39,21 @@ const menu = [
       img: "./menu5.jpg",
       desc: `Osłodzenie wieczoru kierowcy`,
     },
+     {
+      id: 6,
+      title: "Cynamonowy pogromca",
+      category:"Alchemia",
+      price: "xx.xx",
+      img: "./menu6.jpg",
+      desc: `Kto ma wiedzieć ten wie`,
+    }, {
+      id: 7,
+      title: "Miśkowy sok z heli-jagód",
+      category: "Specjalne",
+      price: "yy.yy",
+      img: "./menu7.jpg",
+      desc: `Pilnie strzeżona skandynawska receptura`,
+    },
 ]
 
 //const buttons = document.getElementsByClassName("buttons");
