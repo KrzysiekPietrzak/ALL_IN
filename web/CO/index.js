@@ -52,7 +52,7 @@ const menu = [
       category: "Specjalne",
       price: "yy.yy",
       img: "./menu7.jpg",
-      desc: `Pilnie strzeżona skandynawska receptura`,
+      desc: `Abrakadabra. To czary i magia. Sekretem jest przepis na ten miśkowy sok`,
     },
 ]
 
