@@ -27,7 +27,7 @@ let clients =[
         "img" : "images/img--opinia4.jpg",
         "name" : "Jakub vel Szefu",
         "mark" : "★★★★☆☆☆☆☆",
-"words": "Co za barany robiły tę stronę? Tu nic nie działa poprawnie. Kiedyś też pykałem takie stronki, ale wtedy bylem jeszcze w gimnazjum. /nZła organizacja znaczników, brak konsekwencji w nazywaniu zmiennych, z dupy brane przesunięcia i potem wszystko się rozjeżdża. Okrągłe zero responsywności pod kątem urządzeń mobilnych. Powodzenia w rozbudowie, jak to już teraz ledwo co się trzyma. Kto niby tak robi bazy danych? Zerowa optymalizacja i bezpieczeństwo. Wzięlibyście chociaż jakis framework, to nie, załatać co się da i, cyk pora na CSS",
+"words": "Co za barany robiły tę stronę? Tu nic nie działa poprawnie. Kiedyś też pykałem takie stronki, ale wtedy bylem jeszcze w gimnazjum. Zła organizacja znaczników, brak konsekwencji w nazywaniu zmiennych, z dupy brane przesunięcia i potem wszystko się rozjeżdża. Okrągłe zero responsywności pod kątem urządzeń mobilnych. Powodzenia w rozbudowie, jak to już teraz ledwo co się trzyma. Kto niby tak robi bazy danych? Zerowa optymalizacja i bezpieczeństwo. Wzięlibyście chociaż jakis framework, to nie, załatać co się da i, cyk pora na CSS",
     }
 ]
 let currentClientId = -1;
