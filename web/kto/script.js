@@ -3,7 +3,7 @@ let clients =[
         "id" : 1,
         "name" : "Martwa Komar",
         "img" : "images/img--opinia1.jpg",
-        "mark" : "7/10",
+        "mark" : "6/9",
 "words": "Hej Bartek, chciałam ci tylko powiedzieć, że zakochałam się w Twoim ojcu Wiem, że głupio tak z ziomalem Lecz ja zawsze już kochałam go Kiedy tylko go ujrzałam Chciałam schować to uczucie Lecz ja nie wiem jak mam ukryć to. Nie wiem co na to twoja mama.Bardziej boli mnie co powiesz. Boje się, że stracę brata."
     },
     {
